@@ -1,0 +1,19 @@
+{
+  "name": "demosr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js",
+    "dev":"nodemon app.js"
+  },
+  "author": "dp",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.8.7"
+  }
+}
